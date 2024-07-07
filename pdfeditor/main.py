@@ -3,6 +3,8 @@ from pdfeditor.decryption import Decryption
 from pdfeditor.split import Split
 from pdfeditor.extraction import Extraction
 from pdfeditor.convert_docx import ConvertDocx
+from pdfeditor.range_split import RangeSplit
+from pdfeditor.add_pagination import AddPagination
 
 
 # Before running make sure to place the pdf file you would like to process into the 'resources' folder
@@ -14,6 +16,8 @@ menu = {
     '3': Encryption(),
     '4': Decryption(),
     '5': ConvertDocx(),
+    '6': RangeSplit(),
+    '7': AddPagination(),
 }
 
 if __name__ == '__main__':

@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /resources/text.pdf
 /output/*.pdf
+/resources/*.pdf
